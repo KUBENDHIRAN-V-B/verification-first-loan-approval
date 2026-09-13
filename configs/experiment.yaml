@@ -1,0 +1,97 @@
+# Experiment suite configurations and ablation definitions
+
+ablation_configurations:
+  1_full_vloan:
+    description: "Full V-Loan Framework with all verification gates and audits"
+    materiality: true
+    direction: true
+    rank_consistency: true
+    feasibility_filter: true
+    exact_model_reapplication: true
+    robustness: true
+    fairness_audit: true
+
+  2_no_materiality:
+    description: "V-Loan without materiality threshold (|Δp| >= tau)"
+    materiality: false
+    direction: true
+    rank_consistency: true
+    feasibility_filter: true
+    exact_model_reapplication: true
+    robustness: true
+    fairness_audit: true
+
+  3_no_direction:
+    description: "V-Loan without directional consistency check"
+    materiality: true
+    direction: false
+    rank_consistency: true
+    feasibility_filter: true
+    exact_model_reapplication: true
+    robustness: true
+    fairness_audit: true
+
+  4_no_rank_consistency:
+    description: "V-Loan without Spearman rank consistency acceptance test"
+    materiality: true
+    direction: true
+    rank_consistency: false
+    feasibility_filter: true
+    exact_model_reapplication: true
+    robustness: true
+    fairness_audit: true
+
+  5_no_feasibility_filter:
+    description: "V-Loan without immutable/mutable feasibility gating"
+    materiality: true
+    direction: true
+    rank_consistency: true
+    feasibility_filter: false
+    exact_model_reapplication: true
+    robustness: true
+    fairness_audit: true
+
+  6_no_exact_reapplication:
+    description: "V-Loan without exact deployed model re-application (raw unverified recourse)"
+    materiality: true
+    direction: true
+    rank_consistency: true
+    feasibility_filter: true
+    exact_model_reapplication: false
+    robustness: true
+    fairness_audit: true
+
+  7_no_robustness:
+    description: "V-Loan without recourse perturbation robustness filter"
+    materiality: true
+    direction: true
+    rank_consistency: true
+    feasibility_filter: true
+    exact_model_reapplication: true
+    robustness: false
+    fairness_audit: true
+
+  8_no_fairness_audit:
+    description: "V-Loan without subgroup demographic parity auditing"
+    materiality: true
+    direction: true
+    rank_consistency: true
+    feasibility_filter: true
+    exact_model_reapplication: true
+    robustness: true
+    fairness_audit: false
+
+fairness_protected_attributes:
+  - name: "sex"
+    column: "personal_status_sex"
+    privileged_group: "male"
+    unprivileged_group: "female"
+  - name: "age_group"
+    column: "age_years"
+    threshold: 25
+    privileged_group: "older"
+    unprivileged_group: "young"
+  - name: "foreign_worker"
+    column: "foreign_worker"
+    privileged_group: "no"
+    unprivileged_group: "yes"

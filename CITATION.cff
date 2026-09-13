@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software or research framework in your work, please cite it as below."
+authors:
+  - family-names: "Verification-First Loan Approval Research Team"
+title: "Verification-First Loan Approval: A Verification-First Framework for Trustworthy Explanations and Counterfactual Recourse in Loan Approval"
+version: 2.0.0
+date-released: 2026-09-13
+url: "https://github.com/KUBENDHIRAN-V-B/verification-first-loan-approval"
+keywords:
+  - "explainable-ai"
+  - "counterfactual-recourse"
+  - "algorithmic-fairness"
+  - "credit-scoring"
+  - "model-governance"
+  - "trustworthy-ml"
+license: "MIT"

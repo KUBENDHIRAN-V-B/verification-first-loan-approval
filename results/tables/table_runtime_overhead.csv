@@ -1,0 +1,7 @@
+component_id,component_name,unit,mean_ms,std_ms,min_ms,max_ms,overhead_vs_unverified_pct
+1_Model_Inference_Single,Model Inference Single,milliseconds (ms),15.536332222250671,3.308908929787475,12.028000000100292,39.315500000157044,N/A
+2_SHAP_Attribution_Top5,SHAP Attribution Top5,milliseconds (ms),4.362233333348639,0.8882658983569335,3.556900000148744,8.342899999661313,N/A
+3_LIME_Attribution_Top5,LIME Attribution Top5,milliseconds (ms),912.8664533333397,43.599617674668124,851.7543999996633,1075.312799999665,N/A
+4_VLoan_Explanation_Verification,VLoan Explanation Verification,milliseconds (ms),234.2397988888984,18.89003299760285,212.1993000000657,344.0825000006953,N/A
+5_Constraint_Aware_Recourse,Constraint Aware Recourse,milliseconds (ms),145.1888133332937,486.55520752962946,12.321000000156346,2240.282300000217,N/A
+6_Full_VLoan_Per_Applicant,Full VLoan Per Applicant,milliseconds (ms),383.7908455555407,487.1173600781832,231.96499999994558,2470.529200000783,1928.7%

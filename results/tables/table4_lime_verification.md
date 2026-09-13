@@ -1,0 +1,8 @@
+# Table: Table4 Lime Verification
+
+| model              | method   |   total_tested_claims |   verified_claims |   materiality_pass_rate |   direction_pass_rate |   rank_pass_rate |   DEVR |   evaluated_applicants |   fully_verified_applicants |   partially_verified_applicants |   abstained_applicants |   abstention_rate |
+|:-------------------|:---------|----------------------:|------------------:|------------------------:|----------------------:|-----------------:|-------:|-----------------------:|----------------------------:|--------------------------------:|-----------------------:|------------------:|
+| GradientBoosting   | LIME     |                   250 |                44 |                   0.824 |                 0.304 |             0.64 |  0.176 |                     50 |                           0 |                              25 |                     25 |              0.5  |
+| LogisticRegression | LIME     |                   250 |                12 |                   0.928 |                 0.204 |             0.2  |  0.048 |                     50 |                           0 |                               7 |                     43 |              0.86 |
+| MLP_DNN            | LIME     |                   250 |                 9 |                   0.856 |                 0.268 |             0.28 |  0.036 |                     50 |                           0 |                               9 |                     41 |              0.82 |
+| RandomForest       | LIME     |                   250 |                40 |                   0.816 |                 0.252 |             0.72 |  0.16  |                     50 |                           0 |                              28 |                     22 |              0.44 |

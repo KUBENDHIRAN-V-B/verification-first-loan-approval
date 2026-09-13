@@ -1,0 +1,22 @@
+# Auto-detect text files and normalize line endings
+* text=auto eol=lf
+
+# Explicit text file types
+*.py text eol=lf
+*.md text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.json text eol=lf
+*.toml text eol=lf
+*.csv text eol=lf
+*.html text eol=lf
+*.txt text eol=lf
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pdf binary
+*.joblib binary
+*.zip binary
+*.ipynb text

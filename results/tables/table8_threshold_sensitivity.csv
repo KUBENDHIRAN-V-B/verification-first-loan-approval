@@ -1,0 +1,11 @@
+type,tau,decision_threshold,DEVR,materiality_pass_rate,direction_pass_rate,rank_pass_rate,CFSR,RVR,E2E_VR
+materiality_sweep,0.01,0.5,0.003,0.042,0.614,0.40499999999999997,,,
+materiality_sweep,0.02,0.5,0.003,0.022000000000000002,0.614,0.40499999999999997,,,
+materiality_sweep,0.03,0.5,0.002,0.019,0.614,0.40499999999999997,,,
+materiality_sweep,0.05,0.5,0.0,0.013,0.614,0.40499999999999997,,,
+materiality_sweep,0.1,0.5,0.0,0.006,0.614,0.40499999999999997,,,
+decision_threshold_sweep,0.03,0.4,,,,,0.0,0.0,0.0
+decision_threshold_sweep,0.03,0.45,,,,,0.0,0.0,0.0
+decision_threshold_sweep,0.03,0.5,,,,,0.0,0.0,0.0
+decision_threshold_sweep,0.03,0.55,,,,,0.0,0.0,0.0
+decision_threshold_sweep,0.03,0.6,,,,,0.0,0.0,0.0

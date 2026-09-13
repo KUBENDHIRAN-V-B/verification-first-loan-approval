@@ -1,0 +1,5212 @@
+[
+  {
+    "applicant_id": 0,
+    "decision": "APPROVED",
+    "prediction_probability": 0.5603897545121502,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 1,
+    "decision": "APPROVED",
+    "prediction_probability": 0.6507647380299392,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 2,
+    "decision": "APPROVED",
+    "prediction_probability": 0.6075095103110909,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 3,
+    "decision": "APPROVED",
+    "prediction_probability": 0.5266029610176274,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 4,
+    "decision": "APPROVED",
+    "prediction_probability": 0.8286810124847152,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 5,
+    "decision": "APPROVED",
+    "prediction_probability": 0.6234095923810272,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 6,
+    "decision": "APPROVED",
+    "prediction_probability": 0.8573502288569832,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 7,
+    "decision": "APPROVED",
+    "prediction_probability": 0.6567186101175156,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 8,
+    "decision": "REJECTED",
+    "prediction_probability": 0.41338865550143894,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": [
+        "duration_months",
+        "credit_amount",
+        "installment_rate",
+        "status_checking_account_A11",
+        "status_checking_account_A12",
+        "status_checking_account_A13",
+        "status_checking_account_A14",
+        "savings_account_A61",
+        "savings_account_A62",
+        "savings_account_A63",
+        "savings_account_A64",
+        "savings_account_A65",
+        "other_debtors_guarantors_A101",
+        "other_debtors_guarantors_A102",
+        "other_debtors_guarantors_A103",
+        "property_A121",
+        "property_A122",
+        "property_A123",
+        "property_A124",
+        "other_installment_plans_A141",
+        "other_installment_plans_A142",
+        "other_installment_plans_A143",
+        "housing_A151",
+        "housing_A152",
+        "housing_A153",
+        "job_A171",
+        "job_A172",
+        "job_A173",
+        "job_A174"
+      ]
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0032051175981137048,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 9,
+    "decision": "APPROVED",
+    "prediction_probability": 0.5463229786780507,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 10,
+    "decision": "APPROVED",
+    "prediction_probability": 0.731439194455024,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 11,
+    "decision": "APPROVED",
+    "prediction_probability": 0.5530919452677163,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 12,
+    "decision": "APPROVED",
+    "prediction_probability": 0.829145886792789,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 13,
+    "decision": "APPROVED",
+    "prediction_probability": 0.9211676242781633,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 14,
+    "decision": "APPROVED",
+    "prediction_probability": 0.7436348805648348,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 15,
+    "decision": "REJECTED",
+    "prediction_probability": 0.476945944329136,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": [
+        "duration_months",
+        "credit_amount",
+        "installment_rate",
+        "status_checking_account_A11",
+        "status_checking_account_A12",
+        "status_checking_account_A13",
+        "status_checking_account_A14",
+        "savings_account_A61",
+        "savings_account_A62",
+        "savings_account_A63",
+        "savings_account_A64",
+        "savings_account_A65",
+        "other_debtors_guarantors_A101",
+        "other_debtors_guarantors_A102",
+        "other_debtors_guarantors_A103",
+        "property_A121",
+        "property_A122",
+        "property_A123",
+        "property_A124",
+        "other_installment_plans_A141",
+        "other_installment_plans_A142",
+        "other_installment_plans_A143",
+        "housing_A151",
+        "housing_A152",
+        "housing_A153",
+        "job_A171",
+        "job_A172",
+        "job_A173",
+        "job_A174"
+      ]
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": -0.004791030987709555,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 16,
+    "decision": "APPROVED",
+    "prediction_probability": 0.8293092214312,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 17,
+    "decision": "APPROVED",
+    "prediction_probability": 0.8628590513245136,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 18,
+    "decision": "APPROVED",
+    "prediction_probability": 0.8272193374436898,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 19,
+    "decision": "APPROVED",
+    "prediction_probability": 0.7961335991202652,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 20,
+    "decision": "APPROVED",
+    "prediction_probability": 0.7012288996114023,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 21,
+    "decision": "APPROVED",
+    "prediction_probability": 0.6466538825550351,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 22,
+    "decision": "APPROVED",
+    "prediction_probability": 0.5381018465486813,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 23,
+    "decision": "APPROVED",
+    "prediction_probability": 0.7707235747516584,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 24,
+    "decision": "APPROVED",
+    "prediction_probability": 0.5658284749481645,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 25,
+    "decision": "REJECTED",
+    "prediction_probability": 0.4354815125541293,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": [
+        "duration_months",
+        "credit_amount",
+        "installment_rate",
+        "status_checking_account_A11",
+        "status_checking_account_A12",
+        "status_checking_account_A13",
+        "status_checking_account_A14",
+        "savings_account_A61",
+        "savings_account_A62",
+        "savings_account_A63",
+        "savings_account_A64",
+        "savings_account_A65",
+        "other_debtors_guarantors_A101",
+        "other_debtors_guarantors_A102",
+        "other_debtors_guarantors_A103",
+        "property_A121",
+        "property_A122",
+        "property_A123",
+        "property_A124",
+        "other_installment_plans_A141",
+        "other_installment_plans_A142",
+        "other_installment_plans_A143",
+        "housing_A151",
+        "housing_A152",
+        "housing_A153",
+        "job_A171",
+        "job_A172",
+        "job_A173",
+        "job_A174"
+      ]
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.026969949965893303,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 26,
+    "decision": "APPROVED",
+    "prediction_probability": 0.8745747024399251,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 27,
+    "decision": "APPROVED",
+    "prediction_probability": 0.6027028149000683,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 28,
+    "decision": "APPROVED",
+    "prediction_probability": 0.6413817722826961,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 29,
+    "decision": "APPROVED",
+    "prediction_probability": 0.6059086214816253,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 30,
+    "decision": "APPROVED",
+    "prediction_probability": 0.5896451752599172,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 31,
+    "decision": "APPROVED",
+    "prediction_probability": 0.6491776588876096,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 32,
+    "decision": "APPROVED",
+    "prediction_probability": 0.7032125251079974,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 33,
+    "decision": "APPROVED",
+    "prediction_probability": 0.9030031696881008,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 34,
+    "decision": "APPROVED",
+    "prediction_probability": 0.9059500424495988,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 35,
+    "decision": "APPROVED",
+    "prediction_probability": 0.6413953835277236,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 36,
+    "decision": "APPROVED",
+    "prediction_probability": 0.9699425854095021,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 37,
+    "decision": "REJECTED",
+    "prediction_probability": 0.46176698438034197,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": [
+        "duration_months",
+        "credit_amount",
+        "installment_rate",
+        "status_checking_account_A11",
+        "status_checking_account_A12",
+        "status_checking_account_A13",
+        "status_checking_account_A14",
+        "savings_account_A61",
+        "savings_account_A62",
+        "savings_account_A63",
+        "savings_account_A64",
+        "savings_account_A65",
+        "other_debtors_guarantors_A101",
+        "other_debtors_guarantors_A102",
+        "other_debtors_guarantors_A103",
+        "property_A121",
+        "property_A122",
+        "property_A123",
+        "property_A124",
+        "other_installment_plans_A141",
+        "other_installment_plans_A142",
+        "other_installment_plans_A143",
+        "housing_A151",
+        "housing_A152",
+        "housing_A153",
+        "job_A171",
+        "job_A172",
+        "job_A173",
+        "job_A174"
+      ]
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.027320418881905506,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 38,
+    "decision": "APPROVED",
+    "prediction_probability": 0.7326495783556559,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 39,
+    "decision": "REJECTED",
+    "prediction_probability": 0.37417296687543244,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": [
+        "duration_months",
+        "credit_amount",
+        "installment_rate",
+        "status_checking_account_A11",
+        "status_checking_account_A12",
+        "status_checking_account_A13",
+        "status_checking_account_A14",
+        "savings_account_A61",
+        "savings_account_A62",
+        "savings_account_A63",
+        "savings_account_A64",
+        "savings_account_A65",
+        "other_debtors_guarantors_A101",
+        "other_debtors_guarantors_A102",
+        "other_debtors_guarantors_A103",
+        "property_A121",
+        "property_A122",
+        "property_A123",
+        "property_A124",
+        "other_installment_plans_A141",
+        "other_installment_plans_A142",
+        "other_installment_plans_A143",
+        "housing_A151",
+        "housing_A152",
+        "housing_A153",
+        "job_A171",
+        "job_A172",
+        "job_A173",
+        "job_A174"
+      ]
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.06595578495578491,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 40,
+    "decision": "APPROVED",
+    "prediction_probability": 0.8853450226185178,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 41,
+    "decision": "APPROVED",
+    "prediction_probability": 0.8963287263165053,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 42,
+    "decision": "APPROVED",
+    "prediction_probability": 0.7654762836218146,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 43,
+    "decision": "APPROVED",
+    "prediction_probability": 0.5136443435061515,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 44,
+    "decision": "APPROVED",
+    "prediction_probability": 0.5449474403349652,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 45,
+    "decision": "APPROVED",
+    "prediction_probability": 0.6106552703173246,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 46,
+    "decision": "APPROVED",
+    "prediction_probability": 0.7120148242681484,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 47,
+    "decision": "REJECTED",
+    "prediction_probability": 0.44084637327033477,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": [
+        "duration_months",
+        "credit_amount"
+      ]
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": -0.06322300832845856,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 48,
+    "decision": "REJECTED",
+    "prediction_probability": 0.4414855055840194,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": [
+        "duration_months",
+        "credit_amount",
+        "installment_rate",
+        "status_checking_account_A11",
+        "status_checking_account_A12",
+        "status_checking_account_A13",
+        "status_checking_account_A14",
+        "savings_account_A61",
+        "savings_account_A62",
+        "savings_account_A63",
+        "savings_account_A64",
+        "savings_account_A65",
+        "other_debtors_guarantors_A101",
+        "other_debtors_guarantors_A102",
+        "other_debtors_guarantors_A103",
+        "property_A121",
+        "property_A122",
+        "property_A123",
+        "property_A124",
+        "other_installment_plans_A141",
+        "other_installment_plans_A142",
+        "other_installment_plans_A143",
+        "housing_A151",
+        "housing_A152",
+        "housing_A153",
+        "job_A171",
+        "job_A172",
+        "job_A173",
+        "job_A174"
+      ]
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.08933486419080239,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 49,
+    "decision": "APPROVED",
+    "prediction_probability": 0.6339852749144892,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 50,
+    "decision": "APPROVED",
+    "prediction_probability": 0.6242488483192853,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 51,
+    "decision": "APPROVED",
+    "prediction_probability": 0.6831113563633222,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 52,
+    "decision": "REJECTED",
+    "prediction_probability": 0.494512269268279,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": [
+        "duration_months"
+      ]
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0015153058046684098,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 53,
+    "decision": "REJECTED",
+    "prediction_probability": 0.4852499864332166,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": [
+        "duration_months",
+        "credit_amount"
+      ]
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.03242776666044345,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 54,
+    "decision": "APPROVED",
+    "prediction_probability": 0.6260750465252227,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 55,
+    "decision": "REJECTED",
+    "prediction_probability": 0.3830043994203825,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": [
+        "credit_amount"
+      ]
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": -0.08408233882189259,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 56,
+    "decision": "APPROVED",
+    "prediction_probability": 0.5759012879567715,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 57,
+    "decision": "APPROVED",
+    "prediction_probability": 0.6904119698327023,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 58,
+    "decision": "APPROVED",
+    "prediction_probability": 0.6014776960112999,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 59,
+    "decision": "APPROVED",
+    "prediction_probability": 0.8032981465087871,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 60,
+    "decision": "APPROVED",
+    "prediction_probability": 0.807096309984232,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 61,
+    "decision": "REJECTED",
+    "prediction_probability": 0.45798913386777956,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": -0.04201086613222044,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 62,
+    "decision": "APPROVED",
+    "prediction_probability": 0.5809425492218547,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 63,
+    "decision": "APPROVED",
+    "prediction_probability": 0.6660417487140255,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 64,
+    "decision": "APPROVED",
+    "prediction_probability": 0.7332821919036284,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 65,
+    "decision": "REJECTED",
+    "prediction_probability": 0.47916703127143734,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": [
+        "duration_months",
+        "credit_amount",
+        "installment_rate",
+        "status_checking_account_A11",
+        "status_checking_account_A12",
+        "status_checking_account_A13",
+        "status_checking_account_A14",
+        "savings_account_A61",
+        "savings_account_A62",
+        "savings_account_A63",
+        "savings_account_A64",
+        "savings_account_A65",
+        "other_debtors_guarantors_A101",
+        "other_debtors_guarantors_A102",
+        "other_debtors_guarantors_A103",
+        "property_A121",
+        "property_A122",
+        "property_A123",
+        "property_A124",
+        "other_installment_plans_A141",
+        "other_installment_plans_A142",
+        "other_installment_plans_A143",
+        "housing_A151",
+        "housing_A152",
+        "housing_A153",
+        "job_A171",
+        "job_A172",
+        "job_A173",
+        "job_A174"
+      ]
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": -0.02041690346511499,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 66,
+    "decision": "APPROVED",
+    "prediction_probability": 0.8193516019951702,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 67,
+    "decision": "APPROVED",
+    "prediction_probability": 0.7775283017743191,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 68,
+    "decision": "APPROVED",
+    "prediction_probability": 0.7069265522446918,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 69,
+    "decision": "REJECTED",
+    "prediction_probability": 0.491483716493733,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": [
+        "credit_amount"
+      ]
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": -0.008733584480689394,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 70,
+    "decision": "APPROVED",
+    "prediction_probability": 0.8967568600116019,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 71,
+    "decision": "REJECTED",
+    "prediction_probability": 0.3305662787377257,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": [
+        "duration_months",
+        "credit_amount"
+      ]
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": -0.12778859849885887,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 72,
+    "decision": "APPROVED",
+    "prediction_probability": 0.7614011554454527,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 73,
+    "decision": "APPROVED",
+    "prediction_probability": 0.7403331054449548,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 74,
+    "decision": "REJECTED",
+    "prediction_probability": 0.48633815663679836,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": [
+        "duration_months",
+        "credit_amount"
+      ]
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.08076246325934344,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 75,
+    "decision": "APPROVED",
+    "prediction_probability": 0.8149876656156674,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 76,
+    "decision": "APPROVED",
+    "prediction_probability": 0.7612892593051057,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 77,
+    "decision": "APPROVED",
+    "prediction_probability": 0.7882128349367956,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 78,
+    "decision": "APPROVED",
+    "prediction_probability": 0.8011571697599593,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 79,
+    "decision": "APPROVED",
+    "prediction_probability": 0.8367592232903311,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 80,
+    "decision": "APPROVED",
+    "prediction_probability": 0.9327480603649747,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 81,
+    "decision": "APPROVED",
+    "prediction_probability": 0.8809720839695514,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 82,
+    "decision": "APPROVED",
+    "prediction_probability": 0.5937791580894872,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 83,
+    "decision": "APPROVED",
+    "prediction_probability": 0.6093870387490078,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 84,
+    "decision": "APPROVED",
+    "prediction_probability": 0.7964234830212836,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 85,
+    "decision": "APPROVED",
+    "prediction_probability": 0.685541917835829,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 86,
+    "decision": "APPROVED",
+    "prediction_probability": 0.5863957773653872,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 87,
+    "decision": "APPROVED",
+    "prediction_probability": 0.8010437493874077,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 88,
+    "decision": "REJECTED",
+    "prediction_probability": 0.4890228798949739,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": [
+        "duration_months",
+        "credit_amount",
+        "installment_rate",
+        "status_checking_account_A11",
+        "status_checking_account_A12",
+        "status_checking_account_A13",
+        "status_checking_account_A14",
+        "savings_account_A61",
+        "savings_account_A62",
+        "savings_account_A63",
+        "savings_account_A64",
+        "savings_account_A65",
+        "other_debtors_guarantors_A101",
+        "other_debtors_guarantors_A102",
+        "other_debtors_guarantors_A103",
+        "property_A121",
+        "property_A122",
+        "property_A123",
+        "property_A124",
+        "other_installment_plans_A141",
+        "other_installment_plans_A142",
+        "other_installment_plans_A143",
+        "housing_A151",
+        "housing_A152",
+        "housing_A153",
+        "job_A171",
+        "job_A172",
+        "job_A173",
+        "job_A174"
+      ]
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.09256518278469505,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 89,
+    "decision": "APPROVED",
+    "prediction_probability": 0.9534268129273795,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 90,
+    "decision": "APPROVED",
+    "prediction_probability": 0.9278428537111019,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 91,
+    "decision": "APPROVED",
+    "prediction_probability": 0.5242004474710141,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 92,
+    "decision": "APPROVED",
+    "prediction_probability": 0.8293516098538983,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 93,
+    "decision": "APPROVED",
+    "prediction_probability": 0.6389516206750204,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 94,
+    "decision": "APPROVED",
+    "prediction_probability": 0.5560975015720088,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 95,
+    "decision": "APPROVED",
+    "prediction_probability": 0.6931533730363005,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 96,
+    "decision": "APPROVED",
+    "prediction_probability": 0.7728750454281368,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 97,
+    "decision": "APPROVED",
+    "prediction_probability": 0.6594232054940212,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 98,
+    "decision": "APPROVED",
+    "prediction_probability": 0.6776121242784131,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 99,
+    "decision": "APPROVED",
+    "prediction_probability": 0.8540818616664015,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 100,
+    "decision": "APPROVED",
+    "prediction_probability": 0.9285044907819737,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 101,
+    "decision": "APPROVED",
+    "prediction_probability": 0.8530747168838644,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 102,
+    "decision": "APPROVED",
+    "prediction_probability": 0.751641154591541,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 103,
+    "decision": "APPROVED",
+    "prediction_probability": 0.6352051047700547,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 104,
+    "decision": "APPROVED",
+    "prediction_probability": 0.6022172390843912,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 105,
+    "decision": "APPROVED",
+    "prediction_probability": 0.8476652610257915,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 106,
+    "decision": "APPROVED",
+    "prediction_probability": 0.9087707067431214,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 107,
+    "decision": "APPROVED",
+    "prediction_probability": 0.6985524146095001,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 108,
+    "decision": "REJECTED",
+    "prediction_probability": 0.48164402758799707,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": [
+        "credit_amount"
+      ]
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": -0.017889241757036878,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 109,
+    "decision": "APPROVED",
+    "prediction_probability": 0.7883302766498221,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 110,
+    "decision": "APPROVED",
+    "prediction_probability": 0.6357651119775809,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 111,
+    "decision": "REJECTED",
+    "prediction_probability": 0.47515681206853716,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": -0.02484318793146284,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 112,
+    "decision": "APPROVED",
+    "prediction_probability": 0.5092559511426334,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 113,
+    "decision": "APPROVED",
+    "prediction_probability": 0.7849717404865912,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 114,
+    "decision": "APPROVED",
+    "prediction_probability": 0.766426019637073,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 115,
+    "decision": "REJECTED",
+    "prediction_probability": 0.4650695847219913,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": [
+        "duration_months",
+        "credit_amount",
+        "installment_rate",
+        "status_checking_account_A11",
+        "status_checking_account_A12",
+        "status_checking_account_A13",
+        "status_checking_account_A14",
+        "savings_account_A61",
+        "savings_account_A62",
+        "savings_account_A63",
+        "savings_account_A64",
+        "savings_account_A65",
+        "other_debtors_guarantors_A101",
+        "other_debtors_guarantors_A102",
+        "other_debtors_guarantors_A103",
+        "property_A121",
+        "property_A122",
+        "property_A123",
+        "property_A124",
+        "other_installment_plans_A141",
+        "other_installment_plans_A142",
+        "other_installment_plans_A143",
+        "housing_A151",
+        "housing_A152",
+        "housing_A153",
+        "job_A171",
+        "job_A172",
+        "job_A173",
+        "job_A174"
+      ]
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": -0.03592400502159848,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 116,
+    "decision": "APPROVED",
+    "prediction_probability": 0.7118502373411146,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 117,
+    "decision": "APPROVED",
+    "prediction_probability": 0.7412060389412874,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 118,
+    "decision": "APPROVED",
+    "prediction_probability": 0.7360244734982901,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 119,
+    "decision": "APPROVED",
+    "prediction_probability": 0.7924870135993766,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 120,
+    "decision": "APPROVED",
+    "prediction_probability": 0.615597346846404,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 121,
+    "decision": "APPROVED",
+    "prediction_probability": 0.5071024215160403,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 122,
+    "decision": "APPROVED",
+    "prediction_probability": 0.7215339874191407,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 123,
+    "decision": "APPROVED",
+    "prediction_probability": 0.8059731006167591,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 124,
+    "decision": "APPROVED",
+    "prediction_probability": 0.8897625594239826,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 125,
+    "decision": "APPROVED",
+    "prediction_probability": 0.7983777702558316,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 126,
+    "decision": "APPROVED",
+    "prediction_probability": 0.8572817856863095,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 127,
+    "decision": "APPROVED",
+    "prediction_probability": 0.8874397824110071,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 128,
+    "decision": "APPROVED",
+    "prediction_probability": 0.6568366059879399,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 129,
+    "decision": "APPROVED",
+    "prediction_probability": 0.803063805578519,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 130,
+    "decision": "APPROVED",
+    "prediction_probability": 0.7475532485407939,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 131,
+    "decision": "APPROVED",
+    "prediction_probability": 0.5230448251704249,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 132,
+    "decision": "APPROVED",
+    "prediction_probability": 0.703976919352729,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 133,
+    "decision": "APPROVED",
+    "prediction_probability": 0.6535583815177619,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 134,
+    "decision": "APPROVED",
+    "prediction_probability": 0.7728488468783332,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 135,
+    "decision": "REJECTED",
+    "prediction_probability": 0.42882653379953145,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": [
+        "duration_months",
+        "credit_amount",
+        "installment_rate",
+        "status_checking_account_A11",
+        "status_checking_account_A12",
+        "status_checking_account_A13",
+        "status_checking_account_A14",
+        "savings_account_A61",
+        "savings_account_A62",
+        "savings_account_A63",
+        "savings_account_A64",
+        "savings_account_A65",
+        "other_debtors_guarantors_A101",
+        "other_debtors_guarantors_A102",
+        "other_debtors_guarantors_A103",
+        "property_A121",
+        "property_A122",
+        "property_A123",
+        "property_A124",
+        "other_installment_plans_A141",
+        "other_installment_plans_A142",
+        "other_installment_plans_A143",
+        "housing_A151",
+        "housing_A152",
+        "housing_A153",
+        "job_A171",
+        "job_A172",
+        "job_A173",
+        "job_A174"
+      ]
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.03422640921574227,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 136,
+    "decision": "APPROVED",
+    "prediction_probability": 0.5858181167503812,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 137,
+    "decision": "APPROVED",
+    "prediction_probability": 0.8279053523810941,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 138,
+    "decision": "APPROVED",
+    "prediction_probability": 0.8587652216550645,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 139,
+    "decision": "REJECTED",
+    "prediction_probability": 0.48883153962973175,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": -0.011168460370268252,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 140,
+    "decision": "APPROVED",
+    "prediction_probability": 0.5432408612359305,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 141,
+    "decision": "APPROVED",
+    "prediction_probability": 0.8215945403072442,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 142,
+    "decision": "APPROVED",
+    "prediction_probability": 0.8497804597358992,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 143,
+    "decision": "APPROVED",
+    "prediction_probability": 0.7409654222247463,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 144,
+    "decision": "REJECTED",
+    "prediction_probability": 0.45808806140326785,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": [
+        "duration_months",
+        "credit_amount",
+        "installment_rate",
+        "status_checking_account_A11",
+        "status_checking_account_A12",
+        "status_checking_account_A13",
+        "status_checking_account_A14",
+        "savings_account_A61",
+        "savings_account_A62",
+        "savings_account_A63",
+        "savings_account_A64",
+        "savings_account_A65",
+        "other_debtors_guarantors_A101",
+        "other_debtors_guarantors_A102",
+        "other_debtors_guarantors_A103",
+        "property_A121",
+        "property_A122",
+        "property_A123",
+        "property_A124",
+        "other_installment_plans_A141",
+        "other_installment_plans_A142",
+        "other_installment_plans_A143",
+        "housing_A151",
+        "housing_A152",
+        "housing_A153",
+        "job_A171",
+        "job_A172",
+        "job_A173",
+        "job_A174"
+      ]
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": -0.034571014738566885,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 145,
+    "decision": "APPROVED",
+    "prediction_probability": 0.836731178546983,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 146,
+    "decision": "APPROVED",
+    "prediction_probability": 0.8339512875225551,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 147,
+    "decision": "APPROVED",
+    "prediction_probability": 0.5014516564263263,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 148,
+    "decision": "APPROVED",
+    "prediction_probability": 0.7177932819705071,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 149,
+    "decision": "APPROVED",
+    "prediction_probability": 0.6858705201841258,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 150,
+    "decision": "APPROVED",
+    "prediction_probability": 0.8526822148306565,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 151,
+    "decision": "REJECTED",
+    "prediction_probability": 0.42414007313039515,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": [
+        "duration_months",
+        "credit_amount",
+        "installment_rate",
+        "status_checking_account_A11",
+        "status_checking_account_A12",
+        "status_checking_account_A13",
+        "status_checking_account_A14",
+        "savings_account_A61",
+        "savings_account_A62",
+        "savings_account_A63",
+        "savings_account_A64",
+        "savings_account_A65",
+        "other_debtors_guarantors_A101",
+        "other_debtors_guarantors_A102",
+        "other_debtors_guarantors_A103",
+        "property_A121",
+        "property_A122",
+        "property_A123",
+        "property_A124",
+        "other_installment_plans_A141",
+        "other_installment_plans_A142",
+        "other_installment_plans_A143",
+        "housing_A151",
+        "housing_A152",
+        "housing_A153",
+        "job_A171",
+        "job_A172",
+        "job_A173",
+        "job_A174"
+      ]
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.07421139971139978,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 152,
+    "decision": "APPROVED",
+    "prediction_probability": 0.8460730520941855,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 153,
+    "decision": "APPROVED",
+    "prediction_probability": 0.7595649088368006,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 154,
+    "decision": "REJECTED",
+    "prediction_probability": 0.42411828598283285,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": [
+        "duration_months",
+        "credit_amount"
+      ]
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": -0.07128083682418462,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 155,
+    "decision": "REJECTED",
+    "prediction_probability": 0.35554025367584186,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": [
+        "duration_months",
+        "credit_amount",
+        "installment_rate",
+        "status_checking_account_A11",
+        "status_checking_account_A12",
+        "status_checking_account_A13",
+        "status_checking_account_A14",
+        "savings_account_A61",
+        "savings_account_A62",
+        "savings_account_A63",
+        "savings_account_A64",
+        "savings_account_A65",
+        "other_debtors_guarantors_A101",
+        "other_debtors_guarantors_A102",
+        "other_debtors_guarantors_A103",
+        "property_A121",
+        "property_A122",
+        "property_A123",
+        "property_A124",
+        "other_installment_plans_A141",
+        "other_installment_plans_A142",
+        "other_installment_plans_A143",
+        "housing_A151",
+        "housing_A152",
+        "housing_A153",
+        "job_A171",
+        "job_A172",
+        "job_A173",
+        "job_A174"
+      ]
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.03328588282040945,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 156,
+    "decision": "APPROVED",
+    "prediction_probability": 0.5036560334270794,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 157,
+    "decision": "REJECTED",
+    "prediction_probability": 0.439597674528909,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": -0.06040232547109098,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 158,
+    "decision": "APPROVED",
+    "prediction_probability": 0.9424646610256006,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 159,
+    "decision": "APPROVED",
+    "prediction_probability": 0.8903604708195765,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 160,
+    "decision": "APPROVED",
+    "prediction_probability": 0.8151529959275327,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 161,
+    "decision": "APPROVED",
+    "prediction_probability": 0.8537012814009554,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 162,
+    "decision": "APPROVED",
+    "prediction_probability": 0.8388992544185455,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 163,
+    "decision": "APPROVED",
+    "prediction_probability": 0.7288275514762023,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 164,
+    "decision": "APPROVED",
+    "prediction_probability": 0.8263406975703049,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 165,
+    "decision": "APPROVED",
+    "prediction_probability": 0.9508573185343588,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 166,
+    "decision": "APPROVED",
+    "prediction_probability": 0.7052231138075103,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 167,
+    "decision": "REJECTED",
+    "prediction_probability": 0.4882413779664749,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": [
+        "credit_amount"
+      ]
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.021306103504475593,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 168,
+    "decision": "APPROVED",
+    "prediction_probability": 0.6889613959027958,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 169,
+    "decision": "APPROVED",
+    "prediction_probability": 0.6340475752488582,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 170,
+    "decision": "APPROVED",
+    "prediction_probability": 0.8784459201398581,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 171,
+    "decision": "REJECTED",
+    "prediction_probability": 0.4080337395202792,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": [
+        "duration_months",
+        "credit_amount"
+      ]
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": -0.06545906681674563,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 172,
+    "decision": "APPROVED",
+    "prediction_probability": 0.8988178449187371,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 173,
+    "decision": "APPROVED",
+    "prediction_probability": 0.6924257242680003,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 174,
+    "decision": "APPROVED",
+    "prediction_probability": 0.8462438434320295,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 175,
+    "decision": "APPROVED",
+    "prediction_probability": 0.8277551173566748,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 176,
+    "decision": "APPROVED",
+    "prediction_probability": 0.6059922873748107,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 177,
+    "decision": "APPROVED",
+    "prediction_probability": 0.7966052122213845,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 178,
+    "decision": "APPROVED",
+    "prediction_probability": 0.830837262663103,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 179,
+    "decision": "APPROVED",
+    "prediction_probability": 0.779353284402458,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 180,
+    "decision": "APPROVED",
+    "prediction_probability": 0.7783693411110042,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 181,
+    "decision": "APPROVED",
+    "prediction_probability": 0.7324613454486013,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 182,
+    "decision": "REJECTED",
+    "prediction_probability": 0.40297510093429967,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": [
+        "duration_months",
+        "credit_amount",
+        "installment_rate",
+        "status_checking_account_A11",
+        "status_checking_account_A12",
+        "status_checking_account_A13",
+        "status_checking_account_A14",
+        "savings_account_A61",
+        "savings_account_A62",
+        "savings_account_A63",
+        "savings_account_A64",
+        "savings_account_A65",
+        "other_debtors_guarantors_A101",
+        "other_debtors_guarantors_A102",
+        "other_debtors_guarantors_A103",
+        "property_A121",
+        "property_A122",
+        "property_A123",
+        "property_A124",
+        "other_installment_plans_A141",
+        "other_installment_plans_A142",
+        "other_installment_plans_A143",
+        "housing_A151",
+        "housing_A152",
+        "housing_A153",
+        "job_A171",
+        "job_A172",
+        "job_A173",
+        "job_A174"
+      ]
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.005796083186760059,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 183,
+    "decision": "APPROVED",
+    "prediction_probability": 0.857889655839705,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 184,
+    "decision": "APPROVED",
+    "prediction_probability": 0.8448232636629815,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 185,
+    "decision": "REJECTED",
+    "prediction_probability": 0.4456495540648988,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": [
+        "credit_amount"
+      ]
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": -0.052745019939352544,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 186,
+    "decision": "APPROVED",
+    "prediction_probability": 0.5005943002650639,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 187,
+    "decision": "APPROVED",
+    "prediction_probability": 0.5721800903383973,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 188,
+    "decision": "APPROVED",
+    "prediction_probability": 0.9485024446059718,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 189,
+    "decision": "APPROVED",
+    "prediction_probability": 0.6488057966821333,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 190,
+    "decision": "APPROVED",
+    "prediction_probability": 0.734144112673335,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 191,
+    "decision": "APPROVED",
+    "prediction_probability": 0.5728044206209273,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 192,
+    "decision": "APPROVED",
+    "prediction_probability": 0.858212708307658,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 193,
+    "decision": "APPROVED",
+    "prediction_probability": 0.6400414904835737,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 194,
+    "decision": "APPROVED",
+    "prediction_probability": 0.695972335270748,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 195,
+    "decision": "APPROVED",
+    "prediction_probability": 0.7801459767908725,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 196,
+    "decision": "APPROVED",
+    "prediction_probability": 0.8753717075447783,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 197,
+    "decision": "APPROVED",
+    "prediction_probability": 0.7967518101488981,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 198,
+    "decision": "APPROVED",
+    "prediction_probability": 0.5794713901907613,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 199,
+    "decision": "APPROVED",
+    "prediction_probability": 0.5299314067624716,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 200,
+    "decision": "APPROVED",
+    "prediction_probability": 0.88836931249071,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 201,
+    "decision": "APPROVED",
+    "prediction_probability": 0.889487518961619,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 202,
+    "decision": "APPROVED",
+    "prediction_probability": 0.8822626943622269,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 203,
+    "decision": "APPROVED",
+    "prediction_probability": 0.5864078110988155,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 204,
+    "decision": "APPROVED",
+    "prediction_probability": 0.7285066452674168,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 205,
+    "decision": "APPROVED",
+    "prediction_probability": 0.7341250175740807,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 206,
+    "decision": "APPROVED",
+    "prediction_probability": 0.8205393607240575,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 207,
+    "decision": "APPROVED",
+    "prediction_probability": 0.5738296657144344,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 208,
+    "decision": "APPROVED",
+    "prediction_probability": 0.7906916626349779,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 209,
+    "decision": "APPROVED",
+    "prediction_probability": 0.6096974122213618,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 210,
+    "decision": "REJECTED",
+    "prediction_probability": 0.46583133183034675,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": -0.03416866816965325,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 211,
+    "decision": "APPROVED",
+    "prediction_probability": 0.7366785163761351,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 212,
+    "decision": "APPROVED",
+    "prediction_probability": 0.8613211126025072,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 213,
+    "decision": "APPROVED",
+    "prediction_probability": 0.8056213442498519,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 214,
+    "decision": "APPROVED",
+    "prediction_probability": 0.5947046154639669,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 215,
+    "decision": "APPROVED",
+    "prediction_probability": 0.8630858107148525,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 216,
+    "decision": "APPROVED",
+    "prediction_probability": 0.7233706973214032,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 217,
+    "decision": "APPROVED",
+    "prediction_probability": 0.7169484416171483,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 218,
+    "decision": "APPROVED",
+    "prediction_probability": 0.6967881759484228,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 219,
+    "decision": "APPROVED",
+    "prediction_probability": 0.5397662108904498,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 220,
+    "decision": "APPROVED",
+    "prediction_probability": 0.8843359141226176,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 221,
+    "decision": "APPROVED",
+    "prediction_probability": 0.8841460941392847,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 222,
+    "decision": "REJECTED",
+    "prediction_probability": 0.4768131409414812,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": [
+        "credit_amount"
+      ]
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": -0.018429850526791913,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 223,
+    "decision": "APPROVED",
+    "prediction_probability": 0.7312966808137815,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 224,
+    "decision": "APPROVED",
+    "prediction_probability": 0.7739659273513759,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 225,
+    "decision": "APPROVED",
+    "prediction_probability": 0.7765679388913486,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 226,
+    "decision": "APPROVED",
+    "prediction_probability": 0.836534919745845,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 227,
+    "decision": "APPROVED",
+    "prediction_probability": 0.6477845331505964,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 228,
+    "decision": "REJECTED",
+    "prediction_probability": 0.3580026711652973,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": [
+        "duration_months",
+        "credit_amount"
+      ]
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": -0.13366399550136931,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 229,
+    "decision": "APPROVED",
+    "prediction_probability": 0.8027169527424689,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 230,
+    "decision": "APPROVED",
+    "prediction_probability": 0.645166276565102,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 231,
+    "decision": "REJECTED",
+    "prediction_probability": 0.38383187840687183,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": -0.11616812159312817,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 232,
+    "decision": "APPROVED",
+    "prediction_probability": 0.7222367955972948,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 233,
+    "decision": "APPROVED",
+    "prediction_probability": 0.7232512825260167,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 234,
+    "decision": "APPROVED",
+    "prediction_probability": 0.7612452564639229,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 235,
+    "decision": "REJECTED",
+    "prediction_probability": 0.4999200164914032,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": [
+        "credit_amount"
+      ]
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0035152545866412588,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 236,
+    "decision": "APPROVED",
+    "prediction_probability": 0.8101636176260028,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 237,
+    "decision": "REJECTED",
+    "prediction_probability": 0.422156358422125,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": [
+        "duration_months",
+        "credit_amount"
+      ]
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.022784383591089474,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 238,
+    "decision": "APPROVED",
+    "prediction_probability": 0.7428608461750895,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 239,
+    "decision": "APPROVED",
+    "prediction_probability": 0.6821243129800552,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 240,
+    "decision": "APPROVED",
+    "prediction_probability": 0.7876035292964055,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 241,
+    "decision": "APPROVED",
+    "prediction_probability": 0.5940759554388545,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 242,
+    "decision": "APPROVED",
+    "prediction_probability": 0.8469846935506155,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 243,
+    "decision": "APPROVED",
+    "prediction_probability": 0.6525966700561119,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 244,
+    "decision": "APPROVED",
+    "prediction_probability": 0.9150459576096948,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 245,
+    "decision": "APPROVED",
+    "prediction_probability": 0.63410488985094,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 246,
+    "decision": "APPROVED",
+    "prediction_probability": 0.6090619101648935,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 247,
+    "decision": "APPROVED",
+    "prediction_probability": 0.5539412218987525,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 248,
+    "decision": "APPROVED",
+    "prediction_probability": 0.6164251658704346,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  },
+  {
+    "applicant_id": 249,
+    "decision": "APPROVED",
+    "prediction_probability": 0.5104207073956682,
+    "model": "RandomForest",
+    "explanation_method": "SHAP",
+    "DEVR": 0.0,
+    "verified_features": [],
+    "counterfactual": {
+      "is_feasible": false,
+      "is_verified": false,
+      "changed_features": []
+    },
+    "CFSR": 0.0,
+    "RVR": 0.0,
+    "E2E_VR": 0.0,
+    "verification_margin": 0.0,
+    "robustness": 0.0
+  }
+]

@@ -1,0 +1,11 @@
+# Table: Table Final Ablation
+
+| config_id   | tier_name                             | explanation_verification             | recourse_verification                 | DEVR                  | abstention_rate   | CFSR   | RVR   | E2E_VR   | governance_status                  |
+|:------------|:--------------------------------------|:-------------------------------------|:--------------------------------------|:----------------------|:------------------|:-------|:------|:---------|:-----------------------------------|
+| A0          | Model Only                            | None                                 | None                                  | N/A                   | 0.0%              | N/A    | N/A   | N/A      | Opaque Black Box                   |
+| A1          | Unverified Post-Hoc XAI               | None (Raw Attributions)              | None (Raw Output)                     | 0.0% (Unchecked)      | 0.0%              | N/A    | N/A   | N/A      | Deceptive Attribution Risk         |
+| A2          | + Materiality Gate (|Delta P| >= tau) | Materiality Filtering Only           | None                                  | 72.0% (Material Only) | 28.0%             | N/A    | N/A   | N/A      | Filters Trivial Noise              |
+| A3          | + Directional Gate (DEVR)             | Materiality + Derivative Direction   | None                                  | 23.6%                 | 52.0%             | N/A    | N/A   | N/A      | Truthful Explanation Interception  |
+| A4          | + Rank Gate (Kendall-tau)             | Materiality + Direction + Rank Order | None                                  | 21.7%                 | 55.8%             | N/A    | N/A   | N/A      | Strict Relative Feature Ranking    |
+| A5          | + Recourse Feasibility Gate           | Directional DEVR Gate                | Feasibility + Exact Model Approval    | 23.6%                 | 52.0%             | 2.8%   | 0.0%  | 0.0%     | Feasible Actionable Recourse       |
+| A6          | Full V-Loan Framework                 | Dual DEVR + Simplex Gate             | 10-Stage Funnel (Margin + Robustness) | 23.6%                 | 52.0% (Triage)    | 2.8%   | 0.0%  | 0.0%     | Complete Verified Decision Gateway |

@@ -1,0 +1,59 @@
+# V-Loan Global Experiment Configuration
+dataset:
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  german_credit_zip: "statlog+german+credit+data.zip"
+  test_size: 0.25
+  stratify: true
+  random_seed: 42
+
+experiment:
+  decision_threshold: 0.50
+  top_k_explanations: 5
+  materiality_tau: 0.03
+  perturbation_magnitude: 0.10
+  num_counterfactuals: 3
+
+sensitivity:
+  decision_thresholds:
+    - 0.40
+    - 0.45
+    - 0.50
+    - 0.55
+    - 0.60
+  materiality_thresholds:
+    - 0.01
+    - 0.02
+    - 0.03
+    - 0.05
+    - 0.10
+  perturbation_magnitudes:
+    - 0.05
+    - 0.10
+    - 0.20
+  robustness_perturbations:
+    - -0.10
+    - -0.05
+    - 0.05
+    - 0.10
+
+seeds:
+  - 42
+  - 52
+  - 62
+  - 72
+  - 82
+
+synthetic:
+  n_samples: 1000
+  noise_level: 0.05
+  random_seed: 42
+
+output_dirs:
+  raw_results: "results/raw"
+  tables: "results/tables"
+  figures: "results/figures"
+  logs: "results/logs"
+  summaries: "results/summaries"
+  cards: "results/verification_cards"
+  models: "models"

@@ -1,0 +1,12 @@
+# Table: Table Cross Dataset
+
+| Dataset            |    N |   Features | Model              |   Accuracy |     F1 |   ROC-AUC |   SHAP DEVR |   LIME DEVR |   CFSR |   RVR |   E2E-VR |   Robustness |
+|:-------------------|-----:|-----------:|:-------------------|-----------:|-------:|----------:|------------:|------------:|-------:|------:|---------:|-------------:|
+| German Credit      | 1000 |         20 | LogisticRegression |      0.724 | 0.811  |    0.7749 |       0.344 |       0.048 | 0.0333 |  1    |   0.0333 |          0.8 |
+| German Credit      | 1000 |         20 | RandomForest       |      0.764 | 0.8483 |    0.7935 |       0.232 |       0.16  | 0.0333 |  0    |   0      |          0.8 |
+| German Credit      | 1000 |         20 | GradientBoosting   |      0.752 | 0.8297 |    0.7846 |       0.236 |       0.176 | 0.1333 |  0.25 |   0.0333 |          0.8 |
+| German Credit      | 1000 |         20 | MLP_DNN            |      0.728 | 0.8111 |    0.8055 |       0.204 |       0.036 | 0.0667 |  1    |   0.0667 |          0.8 |
+| Taiwan Credit Card | 2000 |         23 | LogisticRegression |      0.798 | 0.8838 |    0.7337 |       0.216 |       0.112 | 0      |  0    |   0      |          0.8 |
+| Taiwan Credit Card | 2000 |         23 | RandomForest       |      0.81  | 0.8873 |    0.766  |       0.112 |       0.112 | 0      |  0    |   0      |          0.8 |
+| Taiwan Credit Card | 2000 |         23 | GradientBoosting   |      0.802 | 0.8779 |    0.7546 |       0.08  |       0.12  | 0      |  0    |   0      |          0.8 |
+| Taiwan Credit Card | 2000 |         23 | MLP_DNN            |      0.818 | 0.8905 |    0.762  |       0.216 |       0.2   | 0      |  0    |   0      |          0.8 |

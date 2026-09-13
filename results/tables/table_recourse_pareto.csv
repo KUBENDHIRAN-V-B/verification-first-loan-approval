@@ -1,0 +1,3 @@
+generator,evaluated_applicants,feasible_count,verified_count,CFSR,RVR,E2E_VR,mean_l0_sparsity,mean_l1_proximity,mean_l2_proximity,mean_verification_margin,immutable_violation_rate,categorical_violation_rate,boundary_violation_rate
+Constraint_Aware_VLoan,36,1,0,0.027777777777777776,0.0,0.0,16.5,5.6363252333878116,1.0206088160209594,N/A,0.0,0.9166666666666666,0.0
+Unconstrained_Gradient,36,3,1,0.08333333333333333,0.3333333333333333,0.027777777777777776,11.944444444444445,3.9257013480997776,0.8836315013517244,0.03242776666044345,0.0,0.5,0.25

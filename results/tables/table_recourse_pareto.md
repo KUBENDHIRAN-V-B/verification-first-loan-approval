@@ -1,0 +1,6 @@
+# Table: Table Recourse Pareto
+
+| generator              |   evaluated_applicants |   feasible_count |   verified_count |      CFSR |      RVR |    E2E_VR |   mean_l0_sparsity |   mean_l1_proximity |   mean_l2_proximity | mean_verification_margin   |   immutable_violation_rate |   categorical_violation_rate |   boundary_violation_rate |
+|:-----------------------|-----------------------:|-----------------:|-----------------:|----------:|---------:|----------:|-------------------:|--------------------:|--------------------:|:---------------------------|---------------------------:|-----------------------------:|--------------------------:|
+| Constraint_Aware_VLoan |                     36 |                1 |                0 | 0.0277778 | 0        | 0         |            16.5    |             5.63633 |            1.02061  | N/A                        |                          0 |                     0.916667 |                      0    |
+| Unconstrained_Gradient |                     36 |                3 |                1 | 0.0833333 | 0.333333 | 0.0277778 |            11.9444 |             3.9257  |            0.883632 | 0.03242776666044345        |                          0 |                     0.5      |                      0.25 |

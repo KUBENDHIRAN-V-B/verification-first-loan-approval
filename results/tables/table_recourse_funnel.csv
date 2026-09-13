@@ -1,0 +1,11 @@
+stage_id,stage_name,local_unconstrained_count,local_retention_rate,constraint_aware_count,constraint_aware_retention
+1_Rejected_Applicants,1 Rejected Applicants,36,100.0%,36,100.0%
+2_Candidate_Generation,2 Candidate Generation,36,100.0%,36,100.0%
+3_Immutable_Preservation,3 Immutable Preservation,3,8.3%,1,2.8%
+4_Domain_Continuous_Bounds,4 Domain Continuous Bounds,3,8.3%,1,2.8%
+5_Categorical_Mutex_Valid,5 Categorical Mutex Valid,3,8.3%,1,2.8%
+6_Integer_Step_Valid,6 Integer Step Valid,3,8.3%,1,2.8%
+7_Preprocessing_Valid,7 Preprocessing Valid,3,8.3%,1,2.8%
+8_Exact_Model_Verified,8 Exact Model Verified,1,2.8%,0,0.0%
+9_Verification_Margin_Pass,9 Verification Margin Pass,1,2.8%,0,0.0%
+10_Local_Noise_Robust,10 Local Noise Robust,1,2.8%,0,0.0%
